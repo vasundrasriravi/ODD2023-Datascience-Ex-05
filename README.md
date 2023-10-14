@@ -20,7 +20,7 @@ Register no: 212222230168
 ## Encoding.csv file:
 ```
 import pandas as pd
-df=pd.read_csv('Encoding Data.csv')
+df=pd.read_csv('/content/Encoding Data.csv')
 df.head()
 df['ord_2'].unique()
 from sklearn.preprocessing import LabelEncoder,OrdinalEncoder
@@ -45,7 +45,7 @@ df
 ## Data.csv:
 ```
 import pandas as pd
-df1 = pd.read_csv("data.csv")
+df1 = pd.read_csv("/content/data.csv")
 df1.head()
 df1['Ord_1'].unique()
 from sklearn.preprocessing import LabelEncoder,OrdinalEncoder
@@ -112,3 +112,23 @@ df2
 ### Ordinal Encoder:
 ![da3](https://github.com/vasundrasriravi/ODD2023-Datascience-Ex-05/assets/119393983/0d3237bb-1b19-4411-a435-ca81c889034a)
 ![da4](https://github.com/vasundrasriravi/ODD2023-Datascience-Ex-05/assets/119393983/49544d30-25f1-4ea3-8ce3-7e8c96bd306a)
+
+### Label Encoder:
+![da5](https://github.com/vasundrasriravi/ODD2023-Datascience-Ex-05/assets/119393983/7957c39c-e506-4c6e-89de-f2c4eb18997f)
+
+### Binary Encoder:
+![da6](https://github.com/vasundrasriravi/ODD2023-Datascience-Ex-05/assets/119393983/7732dcd1-5bb3-4da3-b23f-783f29b131ab)
+![da7](https://github.com/vasundrasriravi/ODD2023-Datascience-Ex-05/assets/119393983/ff8f9a75-aacb-4e12-b58a-5c967f8dd87d)
+
+## bmi.csv file:
+### Initial data:
+![b1](https://github.com/vasundrasriravi/ODD2023-Datascience-Ex-05/assets/119393983/3919f499-0f83-4534-bf47-7928e9b700df)
+
+### Binary Encoders:
+![b2](https://github.com/vasundrasriravi/ODD2023-Datascience-Ex-05/assets/119393983/7537668e-6e76-44fb-87f3-2dee29d3b85c)
+
+### Dummies:
+![b3](https://github.com/vasundrasriravi/ODD2023-Datascience-Ex-05/assets/119393983/9e19a097-5c78-4146-ad37-a49a7814ee8c)
+
+# RESULT:
+The Feature Generation process was performed and saved the data to a file.
